@@ -1,4 +1,90 @@
 body {
     background-color: #7B9669;
-    color: white;    
+    color: white;
+    font-family: 'Radio Canada Big', sans-serif;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header {
+    display: grid;    
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+nav{
+    column-gap:50px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+}
+.hero-greeting{
+    display: grid;
+    margin-left: 100px;
+}
+
+.hero-img-container{
+    align-self: start;
+    padding-top: 50px;
+}
+
+.greet-spacing{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.about-desc{
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.hello-im{
+    color: #404e3b;
+    font-size: 64px;
+}
+
+.christina{
+    font-size: 96px;
+}
+
+.maribbay{
+    font-size: 96px;
+    margin-left: 200px;
+}
+
+.hero-img{
+    display: block;
+    width:464px;
+    height: 653px;
+    object-fit: cover;
+}
+
+.projects-header{
+    font-size: 96px;
+    color:#404e3b;
+}
+
+.contact-text{
+    font-size: 32px;
+}
+.contact-header{
+    font-size: 96px;
+    color:#404e3b
+}
+
+.contact-lines{
+    display: grid;
 }
