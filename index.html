@@ -27,7 +27,7 @@
        
         
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <div class="greeting">
                 <h1 class="hero-greeting">
                 <span class="hello-im greet-spacing"> Hello, I'm </span> 
@@ -43,12 +43,48 @@
             
         </section>
 
-        <section class="projects">
-            <h1 class="projects-header">Projects</h1> //ermmmm insert carousel logic here ajsdhfk
-            
+        <section id="projects" class="projects">
+            <h1 class="projects-header">Projects</h1> 
+
+            <div class="carousel-container">
+                <div class="carousel-card">
+                    <h2 class="project-name">WiCSE Accountability Bot</h2>
+                    <p class="project-desc">An automated Slack bot made to help WiCSE members stay accountable to their goals.</p>
+                    <ul class="project-tools">
+                        <li class="tools-list-item">
+                            <p class="tool">Javascript</p>
+
+                        </li>
+                        <li class="tools-list-item">
+                            <p class="tool">Google Cloud Run</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="carousel-card">
+                    <h2 class="project-name">HxH Pomodoro Timer</h2>
+                    <p class="project-desc">A HxH-themed desktop pomodoro timer.</p>
+                    <ul class="project-tools">
+                        <li class="tools-list-item"><p class="tool">Electron.js</p></li>
+                        <li class="tools-list-item"><p class="tool">React</p></li>
+                        <li class="tools-list-item"><p class="tool">HTML</p></li>
+                        <li class="tools-list-item"><p class="tool">CSS</p></li>
+                        <li class="tools-list-item"><p class="tool">Aesprite</p></li>
+                    </ul>
+                </div>
+                
+                <div class="carousel-card">
+                    <h2 class="project-name">Tzzingz Wrrllddd</h2>
+                    <p class="project-desc">A Y2K-style personal site hosted on Neocities</p>
+                    <ul class="project-tools">
+                        <li class="tools-list-item"><p class="tool">HTML</p></li>
+                        <li class="tools-list-item"><p class="tool">CSS</p></li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section class="contact">
+        <section id="contact" class="contact">
             <h1 class="contact-header">Contact</h1>
             <p class="contact-text">Send any inquiries, comments, requests, ideas, etc.
                 Responses within 24-48 hours.</p>
