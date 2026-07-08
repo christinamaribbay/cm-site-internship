@@ -245,4 +245,12 @@ nav{
     html{
         font-size: 25%
     }
+    .hero{
+        display:block;
+    }
+    .hero-greeting{
+    display: grid;
+    margin-left: 0;
+    margin-right: 10rem;
+    }
 }
